@@ -1,0 +1,30 @@
+{
+    "name": "rogeriodalton/PHPtest",
+    "description": "Busca CEP",
+    "minimum-stability": "stable",
+    "license": "Proprietary",
+    "authors": [
+      {
+          "name": "Dalton Rogerio Alvarez",
+          "email": "rogeriodalton@gmail.com",
+          "role": "Developer"
+      }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php",
+            "source/Helpers.php"
+        ]
+    },
+    "require": {
+      "coffeecode/router": "1.0.*",
+      "coffeecode/datalayer": "1.1.*",
+      "league/plates": "v4.0.0-alpha"
+    }
+  }
